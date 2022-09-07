@@ -8,6 +8,7 @@ import Match from './components/Match/Match'
 import Skills from './components/Skills/Skills'
 import Footer from './components/Footer/Footer'
 import Container from './Layout/Container'
+import Perfil from './components/Perfil/Perfil'
 
 export default function App() {
 
@@ -24,6 +25,7 @@ export default function App() {
                       <Link to="/Feed">Feed</Link>
                       <Link to="/Match">Match</Link>
                       <Link to="/Skills">Skills</Link>
+                      <Link to="/Perfil">Perfil</Link>
                   </ul>
               </nav>
           </header>
@@ -37,6 +39,7 @@ export default function App() {
             <Route path='/Feed' element={<Feed/>}/>
             <Route path='/Match' element={<Match/>}/>
             <Route path='/Skills' element={<Skills/>}/>
+            <Route path='/Perfil' element={<Perfil/>}/>
 
           </Routes>
           </Container>
