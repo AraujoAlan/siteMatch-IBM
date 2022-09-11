@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../css/styles.css'
+import seta from '../../img/seta.png'
 
 export default function Configuracoes() {
 
@@ -19,7 +20,7 @@ export default function Configuracoes() {
             </div>
     
             <div class="flex back">
-                <button class="btnBgLaranja" onclick="location.href='/principal.html'"><img class="seta" alt="seta" src="./img/seta.png" /></button>
+                <button class="btnBgLaranja" onclick="location.href='/principal.html'"><img class="seta" alt="seta" src={seta} /></button>
             </div>
         </div>
         <div class="subTopo"></div>
