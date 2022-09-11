@@ -1,0 +1,274 @@
+@keyframes bouce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+.topo1{    
+    height: -10px;
+}
+
+.paragrafo{
+    margin-left: 10px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.paragrafo1{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.paragrafo2{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.paragrafo3{
+    margin-left: 15px;
+}
+
+.paragrafo4{
+    margin-top: 15px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+}
+
+.paragrafo5{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.paragrafo6{
+    margin-left: 15px;
+}
+
+.paragrafo7{
+    margin-top: 15px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+}
+
+.final{
+    margin-left: 10px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.voltar{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.letreiro{
+    font-size: x-large;
+}
+
+.links{
+    margin-left: 50px;
+}
+
+#infoBox{
+    width: 98%;
+    height: 43vh;
+    justify-content: center;
+    border-radius: 15px;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-style: solid;
+    border-color: #ffecbb;
+    border-width: 1.5px;
+    box-shadow: 0 0 0.5em black;
+    background-color: #fdeecc;
+}
+
+#infoBox1{
+    width: 98%;
+    height: 43vh;
+    justify-content: center;
+    border-radius: 15px;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-style: solid;
+    border-color: #ffecbb;
+    border-width: 1.5px;
+    box-shadow: 0 0 0.5em black;
+    background-color: #fdeecc;
+}
+
+
+.topo{
+    height: 60px;
+    background-color: darkorange;
+}
+
+.topoChat{
+    height: 45px;
+    background-color: darkorange;
+}
+
+.subTopo{
+    height: 60px;
+    background-color: darkorange;
+}
+
+.topoContent{
+    height: 60px;
+    background-color: darkorange;
+}
+
+.logo{
+    margin-top: -53px;
+    margin-bottom: -16px;
+    color: white;
+}
+
+.logoBlack{
+    color: black;
+    margin-left: 2px;
+}
+
+.centerUnderLogo{
+    margin-top: -10px;
+}
+
+.card{
+    border-radius: 15px;
+    border-width: 8px;
+    border-color: black;
+    box-shadow: 4px;    
+    background-color: #fff7e3;
+    margin: 16px;
+    margin-top: 32px;
+    padding: 8px;
+}
+
+.cardMsg{
+    width: 98%;
+    height: 112px;
+}
+
+.cardContent{
+    margin-left: 16px;
+}
+
+.cardContentMsg{
+    margin-left: 180px;
+}
+
+.msgCardTempo{
+    margin-left: 1300px;
+    margin-top: 24px;
+}
+
+
+
+.msgCardNome{
+    margin-left: 120px;
+    font-size: larger;
+}
+
+.profilePicture{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: -74px;
+}
+
+.back{
+    margin-top: -75px;
+}
+
+.seta{
+    width: 20px;
+    height: 20px;
+}
+
+.btnBgLaranja{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    margin-left: 64px;
+}
+
+.btnBgLaranjaFeed{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    margin-left: 64px;
+    margin-top: 32px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flexRow{
+    flex-direction: row;
+}
+
+.flexColumn{
+    flex-direction: column;
+}
+
+.justifyContentCenter{
+    justify-content: center;
+}
+
+.justifyItemsCenter{
+    justify-items: center;
+}
+
+.justifyContentEnd{
+    justify-content: end;
+}
+
+.alignContentCenter{
+    align-content: center;
+}
+
+.alignItemsCenter{
+    align-content: center;
+}
+
+.fieldsetContent{
+    margin-left: 500px;
+    margin-right: 500px; 
+    text-align: center; 
+}
+
+.btnSalvarAlteracoes{
+    margin-top: 10px;
+    margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.btnSalvarAlteracoes:hover{
+    animation: bouce 1s;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Container.css'
+import '../css/styles.css'
 
 export default function Container(props) {
 
